@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+     <!--  <link rel="stylesheet" href="css/estilo.css"> -->
+    <script type="text/javascript" src="avatares.json"></script>
+    <title>Administracion</title>
+  </head>
+  <body>
+    <h1>Administrar Usuarios</h1>
+    <a href="admin.html"> <button type="button" name="button">Menu Administracion</button> </a>
+    <a href="index.html"> <button type="button" name="button">Menu Principal</button> </a>
+<div class="listar" id="listar">
+
+</div>
+<a href="#" id="btnNuevo"><button type="button" name="button">Nuevo</button> </a>
+<div class="nuevo" id="nuevo">
+
+
+    <label for="">Foto Avatar</label>
+    <select class="selectAdmin" id="foto" name="foto">
+      <option value="fondo.jpg">fondo.jpg</option>
+      <option value="fondo-f.jpg">fondo-f.jpg</option>
+</select>
+
+    <input type="number" name="punto" value="" id="punto" placeholder="puntos">
+ 
+</select>
+    <a href="#"><button type="button" id="btnGuardar" name="button">Guardar</button></a>
+
+</div>
+
+<div class="editar" id="editar">
+<h1>Editar</h1>
+
+    <label for="">Foto Avatar</label>
+    <select class="selectAdmin" id="fotoedit" name="fotoedit">
+      <option value="avatar1.png">avatar1.png</option>
+      <option value="avatar2.png">avatar2.png</option>
+      <option value="avatar3.png">avatar3.png</option>
+      <option value="avatar4.png">avatar4.png</option>
+</select>
+<label for="" id="idedit"></label>
+    <input type="number" name="puntoedit"  id="puntoedit" placeholder="puntos">
+</select>
+    <a href="#"><button type="button" id="btnEditar" name="button">Guardar</button></a>
+
+</div>
+    <script type="text/javascript" src="js/ClassAvatar.js"></script>
+    <script type="text/javascript" src="js/adminUsuario.js"></script>
+
+  </body>
+</html>
